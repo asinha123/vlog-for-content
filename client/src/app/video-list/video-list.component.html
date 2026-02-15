@@ -1,0 +1,13 @@
+<div>
+  <h2>Videos</h2>
+  <div class="video-list">
+    <div class="video-card" *ngFor="let v of videos; trackBy: trackById">
+      <h3>{{ v.title }}</h3>
+      <p>{{ v.description }}</p>
+      <small>{{ v.views }} views</small>
+      <div style="margin-top:8px">
+        <button (click)="open(v)">Watch</button>
+      </div>
+    </div>
+  </div>
+</div>

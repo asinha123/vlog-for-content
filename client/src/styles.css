@@ -1,0 +1,5 @@
+/* Minimal styles */
+body { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; }
+.container { max-width: 960px; margin: 24px auto; padding: 0 16px; }
+.video-card { border: 1px solid #e0e0e0; padding: 12px; margin-bottom: 12px; border-radius: 6px; }
+.video-list { display: grid; grid-template-columns: 1fr; gap: 12px; }

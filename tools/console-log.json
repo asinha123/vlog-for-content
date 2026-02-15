@@ -1,0 +1,26 @@
+[
+  {
+    "source": "console",
+    "type": "info",
+    "text": "[webpack-dev-server] Server started: Hot Module Replacement disabled, Live Reloading enabled, Progress disabled, Overlay enabled.",
+    "args": [
+      "[webpack-dev-server] Server started: Hot Module Replacement disabled, Live Reloading enabled, Progress disabled, Overlay enabled."
+    ]
+  },
+  {
+    "source": "console",
+    "type": "error",
+    "text": "be: NG0908",
+    "args": [
+      {
+        "code": 908
+      }
+    ]
+  },
+  {
+    "source": "console",
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "args": []
+  }
+]

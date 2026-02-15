@@ -1,0 +1,9 @@
+<div *ngIf="video">
+  <h2>{{ video.title }}</h2>
+  <p>{{ video.description }}</p>
+  <video width="800" controls (play)="onPlay()">
+    <source [src]="src" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <p>{{ video.views }} views</p>
+</div>
